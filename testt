@@ -1,0 +1,22 @@
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'goofy slayers';
+    Text = 'aless is gay';
+    Duration = 20;
+  })
+  if not game.Players.LocalPlayer:IsInGroup(3271674) then
+    coroutine.resume(coroutine.create(function()
+       wait(10)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'join the group goofy';
+        Text = 'copied to clipboard';
+        Duration = 20;
+       })
+       setclipboard('https://www.roblox.com/groups/3271674/The-Gay-Group-Have-Pride#!/about')
+    end))
+  end
+end)
+ if game.Players.LocalPlayer:IsInGroup(3271674) then
+     repeat wait() until game:IsLoaded()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+end
