@@ -2,7 +2,7 @@ game.StarterGui:SetCore("SendNotification", {
     Title = "soulz anti";
     Text = "Loaded in.";
     
-})
+ })
 local settings = {
     main = {
         DotEnabled = true, --
